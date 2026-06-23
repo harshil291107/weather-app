@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="search">
+        <button class="theme-toggle">
+            🌙
+        </button>
+        <input type="text" placeholder="Search city...">
+        <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+
+    <div class="location">
+        <p class="cityname">Ahmedabad</p>
+        <p class="date">17 June 2026</p>
+    </div>
+
+    <div class="content">
+
+        <div class="left">
+
+            <div class="main_weather">
+                <img class="weather-icon" src="" alt="Weather Icon">
+                <h1 class="temperature">37°C</h1>
+                <p class="description">Partly Cloudy</p>
+            </div>
+
+            <div class="weather_details">
+
+                <div class="rain">
+                    <i class="fa-solid fa-umbrella"></i>
+                    <p class="rain-value">75%</p>
+                    <span>Rain</span>
+                </div>
+
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <p class="humidity-value">62%</p>
+                    <span>Humidity</span>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <p class="wind-value">12 km/h</p>
+                    <span>Wind</span>
+                </div>
+
+                <div class="pressure">
+                    <i class="fa-solid fa-compass"></i>
+                    <p class="pressure-value">1012 hPa</p>
+                    <span>Pressure</span>
+                </div>
+
+            </div>
+
+            <div class="suninfo">
+
+                <div class="sunrise">
+                    <i class="fa-solid fa-sun"></i>
+                    <p>5:37 AM</p>
+                </div>
+
+                <div class="sunset">
+                    <i class="fa-solid fa-moon"></i>
+                    <p>7:02 PM</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="forecast">
+
+            <div class="days">
+                <p class="forecast-day">Day1</p>
+                <img class="forecast-icon">
+                <p class="forecast-temp">37°C</p>
+            </div>
+
+            <div class="days">
+                <p class="forecast-day">Day2</p>
+                <img class="forecast-icon">
+                <p class="forecast-temp">35°C</p>
+            </div>
+
+            <div class="days">
+                <p class="forecast-day">Day3</p>
+                <img class="forecast-icon">
+                <p class="forecast-temp">34°C</p>
+            </div>
+
+            <div class="days">
+                <p class="forecast-day">Day4</p>
+                <img class="forecast-icon">
+                <p class="forecast-temp">36°C</p>
+            </div>
+
+            <div class="days">
+                <p class="forecast-day">Day5</p>
+                <img class="forecast-icon">
+                <p class="forecast-temp">38°C</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
