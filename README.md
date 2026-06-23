@@ -1,57 +1,82 @@
 # 🌦️ Weather App
 
-A simple weather application built using HTML, CSS, and JavaScript that provides real-time weather information.
+A simple weather application built using HTML, CSS, and JavaScript that provides real-time weather information for any city.
 
-## Features
+## 🚀 Live Demo
+
+https://harshil291107.github.io/weather-app/
+
+## 📌 Features
 
 - Search weather by city name
-- Shows current temperature
-- Displays humidity
-- Displays wind speed
+- Real-time temperature display
+- Humidity information
+- Wind speed information
 - Weather condition icons
 - Responsive design
+- User-friendly interface
+- Error handling for invalid city names
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6)
 - Weather API
+- Fetch API
 
-## Files
+## 📂 Project Structure
 
+```text
 WeatherApp/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
-## How to Run
+## ▶️ How to Run
 
-1. Download or clone the project.
-2. Open the project folder.
-3. Open `index.html` in your browser.
+1. Clone the repository
 
-## What I Learned
+```bash
+git clone https://github.com/harshil291107/weather-app.git
+```
 
-- API Integration
+2. Open the project folder
+
+```bash
+cd weather-app
+```
+
+3. Open `index.html` in your browser
+
+## 📚 What I Learned
+
+- Working with APIs
 - Fetch API
 - Async JavaScript
 - DOM Manipulation
 - Error Handling
-- Responsive Design
+- Responsive Web Design
+- Git and GitHub Basics
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- 5-day forecast
-- Dark mode
-- Auto location detection
-- Search history
+- 5-Day Weather Forecast
+- Auto Location Detection
+- Dark Mode
+- Search History
+- Better Weather UI
 
-## Author
+## 👨‍💻 Author
 
 Harshil Katariya
 
 GitHub:
 https://github.com/harshil291107
+
+---
+
+⭐ If you like this project, consider giving it a star.
